@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.dimeru-background{
+    background-image: url("../image/jjj.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size:800px 942px; */
+    background-size: cover;
+    min-height: 700px;
+}
+
+.logo-img{
+    margin-top: 170px;
+    margin-left: auto;
+}
+
+.info-text{
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 23px;
+    line-height: 25px;
+}
+.or-use-email-text{
+    margin-top: 5px;
+     font-size: 20px; 
+     color: #DCE8EA; 
+     font-stretch: extra-expanded;
+}
+.sign-up-section{
+    background-color: rgb(236, 145, 145);
+}
+.create-account-text{
+    margin-top: 25px;
+}
+
+.option-image-section{
+    padding-left: 198px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+
+.optional-signup{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 40px;
+    border-radius: 150px;
+background: #ffffff;
+box-shadow:  6px 6px 9px #86A2A7,
+             -6px -6px 9px #9FC0C6;
+}
+
+.form-group{
+    width: 39rem;
+    padding-left: 115px;
+    
+}
+
+.form-control{
+    background-color: rgb(236, 145, 145) ;
+    height: 3.5rem;
+    padding-left: 25px;
+    font-size: 17px;
+    margin-top: 27px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(236, 145, 145);
+    box-shadow: inset 5px 5px 3px rgb(245, 125, 125),
+            inset -5px -5px 3px rgb(238, 194, 194);
+    padding-left: 25px;
+    font-size: 17px;
+    /* color: #DCE8EA; */
+}
+
+.form-control::placeholder{
+    color: #DCE8EA;
+}
+
+.submit-button{
+    width: 10rem;
+    padding:8px;
+    color: #DCE8EA;
+    font-size: 20px;
+    font-weight:900 ;
+    background-color: rgb(236, 145, 145) ;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background:rgb(236, 145, 145);
+    box-shadow:  5px 5px 3px rgb(245, 125, 125),
+                 -5px -5px 3px rgb(238, 194, 194);
+}
+.form-control:focus,
+.form-control:active { 
+    outline: none;
+	outline: 0;
+}
+
+.already-have-an-account{
+    color:  #DCE8EA;
+}
+

@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(243, 240, 234);
+}
+.navbar{
+	background: rgb(236, 145, 145);
+	height: 70px;
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand {
+	color: rgba(243, 241, 241, 0.9);
+	font-weight: 900;
+}
+
+.car-wrap{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.car-image{
+	max-height: 500px;
+	background: cover;
+}
+
+.jumbo-2{
+	background: rosybrown;
+	height: 150px;
+}
+.jumbo-2-text{
+	color: rgb(255, 251, 251);
+}
+.jumbo-1{
+	height: 50px;
+}
